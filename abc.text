@@ -1,0 +1,389 @@
+oprater
+
+aretmetic + - * % /
+
+assingment = == !=
+
+comperition < > >= <= ===
+
+logical && ||
+
+softhand  += -= *= %= /=
+
+incriment decriment ++ --
+
+ternery ?: :
+
+
+
+veriabels and data types
+
+veriabels
+
+var const let
+
+var = globle redeclerd redefine reasing
+var a="aaa";
+var a=10;
+var is globle
+
+document.write(a);
+document.write(a+"<br>"+a);
+
+
+let one  type of decler reasing but not redecler
+
+let a=10;
+consol.log(a);
+
+
+const = can not change at runtime not reasing and redecler
+
+const a=10;
+consol.log(a);
+
+
+
+type casting in JS
+
+changing datatype in veriabel
+parseint
+parsefloat
+
+a=parseint("10");
+
+a=parsefloat("14521.256");
+
+
+
+datatype
+
+var a=10 number
+let name="aaa"; srting
+const age=55;
+let age=true; bulion
+let bigvalue=1235456789; big intiger
+
+symbol
+object
+
+
+number
+let n=45234354243542354;-
+consol.log(n);
+consol.log(typeof(n));
+
+
+srting
+let a="4524574555";
+let a="aaa";
+let a='aaa';
+let a=`aaa`; (accept line breaks)
+consol.log(a);
+consol.log(typeof(a));
+
+
+bulion
+let age=true;
+let agecheck=false
+consol.log(typeof(age));
+
+
+object
+{property:value}
+var a={id:101};
+var a={id:101,name:"aaa",age:32,salary:555};
+consol.log(a);
+
+
+arrey
+var a=["Aaa","asd","xyz"];
+consol.log(a);    consider as object
+
+
+symbol
+var a=Symbol("abc xyz");
+consol.log(a);
+
+
+function
+
+function is block of code and it is reusables
+
+builtin 
+userdefine
+
+how to call
+function call by value
+call by reference
+
+normal function
+
+reference
+function aaa(fnm)
+{
+    var firstname="abcd" + fnm;
+    consol.log(firstname);
+}
+aaa("apple");
+
+value
+function aaa(fnm)
+{
+    return fnm;
+}
+consol.log(aaa("apple"));  terminated
+
+
+arrow function
+
+var nm=()=>{
+    consol.log("apple");
+}
+nm();
+
+with return
+var nm=(fnm)=>{
+    return fnm;
+}
+consol.log(nm("apple"));
+
+
+statement
+
+we use this to check true or false and continue break statement
+
+2 types of statement
+conditionl
+where true false we applied conditions
+if if else, nested, if elseif, switch case
+
+looping statement
+number if itetions repeted again again we applied looping statement
+for, nested for, foreach, forof, for in, while, do while
+
+looping control statement
+break continue
+
+
+if 
+when condition is true we use if
+if(condition)
+{
+    statement
+}
+
+let a=10;
+let b=20
+if (a>b)
+{
+    consol.log("a is grater then b");
+}
+
+
+if else
+let a=10;
+let b=20
+if (a>b)
+{
+    consol.log("a is grater then b");
+}
+else
+{
+    consol.log("a is less then b");
+}
+
+
+nested if
+var a=10
+var b=20
+if(a>b);
+{
+    if(a!=0 && b!=0)
+    {
+        consol.log("a is grater then b and both are positive value);
+    }
+}
+else
+{
+    consol.log("a is less then b");
+}
+
+
+if elseif
+let a=10;
+let b=20
+if (a>b)
+{
+    consol.log("a is grater then b")
+}
+else if(b>a)
+{
+    consol.log("b is grater then a")
+}
+else
+{
+    consol.log("both are equal")
+}
+
+
+Loop
+
+map
+map check each value of arrey
+
+
+looping control statement
+
+breaK
+var i;
+for (i=0; i<=10; i++)
+{
+    if(i==5)
+    {
+        break;
+    }
+    consol.log(i);
+}
+
+continue THIS SKIP ONE step
+var i;
+for (i=0; i<=10; i++)
+{
+    if(i==5)
+    if(i==5 || i==9)
+    {
+        continue;
+    }
+    consol.log(i);
+}
+
+while = when conditionis true
+var i=0;
+while (i<=10)
+{
+    consol.log(i);
+    i++;
+}
+
+
+do while = one time either condition true or false
+var i=0;
+do
+{
+    consol.log(i);
+    i++;
+}
+while(i<=10);
+
+
+javascript use strict
+use strict = we mostly use in react and we use use strict to get all possible error
+"use strict"
+
+javascript hoisting
+hoisting = declaration of veriabels assingn values befor defiaing
+
+3 type of input in html by js
+1 prompt 
+2 conform
+3 alert
+
+out put methods of js
+1 js alert
+2 document.write
+3 consol.log
+4 window.print
+    this print any contain of web page
+    this can use for print
+5 document.getelimentbyid
+    this can use with id
+6 id.value
+7 id.style
+8 getelimentbyid.src
+9 document.queryselector
+    selector = element, id, class
+    call id with # calss with . 
+10 inner html
+11 prompt
+12 conform
+
+document.write is give you output like a fresh web page
+
+
+
+js events
+
+1 windows events
+    on load events
+    onload="function name"
+2 keyboard events
+3 mouse events
+
+
+onload example
+
+ website = hrms loader gif images
+loader apply
+    var a;
+    function main()
+    {
+        a=settimeout('display()',3000);
+    }
+
+    function display()
+    {
+        document.getelimentbyid("loader").style.none;
+        document.getelimentbyid("main").style="display:block";
+    }
+
+direct onload example
+window.onload=()>{
+    document.getelimentbyid("demo").style="color=blue";
+}
+
+on unload event
+onunload="display()"
+
+
+
+keyboard events
+1 onkeydown
+2 onkeyup
+3 onkeypress
+
+
+mouse events
+1 on change event
+2 onhover
+3 onmouseout
+
+
+js validation with regular expretion
+
+make form using bootstrape
+
+give name always
+
+give form name name="nm" in html
+
+search regular experssion in google 
+serch as you want
+
+in javascript
+function valid()
+{
+    if (document.nm.name.value=="")
+    {
+        alert("enter properly")
+        document.nm.name.focus();
+        return false;
+    }
+    var nm=[A-Za-z]+$;
+    if (!nm.test(document.nm.name.value))
+    {
+        alert("enter alfabets")
+        document.nm.name.focus();
+        return false;
+    }
+}
