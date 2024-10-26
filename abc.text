@@ -1,8 +1,8 @@
-oprater
+        oprater
 
 aretmetic + - * % /
 
-assingment = == !=
+assignment = == !=
 
 comperition < > >= <= ===
 
@@ -384,6 +384,275 @@ function valid()
     {
         alert("enter alfabets")
         document.nm.name.focus();
-        return false;
+        return false; 
     }
 }
+
+
+what is repl
+stands for read evoluate print loop
+repl provides in command line
+to run write node for shortcut command write .help
+
+node to active repl
+
+
+Advance javascript
+
+oops
+arrow
+add event listner
+js ajxs
+js object
+js array and functions
+js srting
+js to do app create
+js dom wob
+js promise
+js debuger
+js error
+js exseptions handling
+6.1 ecma script
+
+then
+react
+
+
+
+
+oops = object orianted programing structure language
+used in react js as class base components, advanced js, secured web app created
+
+
+oops features 
+    class
+    object
+    inheritence
+        single, multilevel, multipule
+    polymorphism
+        method over loading, method overriding
+    incapusulations 
+    abstractions
+
+
+
+class = class is group of member and member function
+
+class can be multipul but object can be one
+
+class classname
+{
+    member function()
+    {
+        statement;
+    }
+}
+create the object of class 
+call the member function
+
+class abc{
+    constroctor(nm)
+    {
+        this.nm=nm;   this.nm = current object
+    }
+}
+var obj=new abc("abcd"); new is object of class
+console.log(obj);
+
+
+
+object
+
+object is instance of class  instance=examples
+class is blueprint of object
+object is always created with new keyword of class
+
+class car{
+    constructor(name,year)
+    {
+        this.name=name;
+        this.year=year;
+    }
+}
+var obj=new car('maruti',800)
+console.log(obj);
+
+
+
+inheritance
+
+class car{
+    constructor(name,year)
+    {
+        this.name=name;
+        this.year=year;
+    }
+}
+class room extance car {
+    constructor(name,year,rname,add)
+    {
+        super(name,year)
+        this.rname=rname;
+        this.add=add;
+    }
+}
+var obj=new room('maruti',800,'abcd','new road')
+console.log(obj);
+
+
+
+multipiule inheritance
+we cannot access 
+this is not supported oin js 
+
+
+
+polymorphism
+poly = many 
+make different function to make an application
+
+method overriding method over loading
+
+method over loading
+type of polymorphism  
+means when we use same function pass with different argument that called method over loading
+
+class add{
+    constroctor(a,b,c)
+    {
+        this.a=a;
+        this.b=b;
+        this.c=c;
+        this.c=a+b;
+    }
+}
+
+class mult extance add{
+    constroctor(a.,b,c,d)
+    {
+        super(a,b,c);
+        this.d=d;
+        this.d=a*b*c
+    }
+}
+var obj=new mult(10,20,30)
+console.log(obj);
+
+
+method overriding
+pass with same argument
+
+class add{
+    constroctor(a,b,c)
+    {
+        this.a=a;
+        this.b=b;
+        this.c=c;
+        this.c=a+b;
+    }
+}
+
+class mult extance add{
+    constroctor(a.,b,c,d)
+    {
+        super(a,b,c);
+        this.c=c;
+        this.c=a*b
+    }
+}
+var obj=new mult(10,20,30)
+console.log(obj);
+
+
+abstractions
+data hiding process we hide some data from some users
+is never create an object but we acn access abstract class using inheritance
+abstract class is not supported in js it is used in type script
+
+
+abstract class A{
+    constroctor(a)
+    {
+        this.a=a
+    }
+}
+
+
+
+incapsulations
+wrapping a data in a single object 
+also used to wrap a small objects in a asingle data
+
+set data
+get data
+
+class student{
+    constroctor()
+    {
+        var name;
+        var mark;
+    }
+    getname()
+    {
+        return this.name;
+    }
+    setname(name)
+    {
+        this.name=name;
+    }
+
+    getmark()
+    {
+        return this.mark;
+    }
+    setmark(mark)
+    {
+        this.mark=mark;
+    }
+}
+var boj=new student();
+boj.setname("apple");
+boj.setmark(99);
+console.log(boj)
+
+
+
+srting
+set of charactor that inclose within litrels = '', "", `` and instance or object
+
+3 type of srting
+litrel constroctor instance
+
+normal
+
+srting as litrel 
+var str = "apple"
+var str = 'apple'
+var str = `apple`
+console.log(str)
+
+
+sring as instance
+var name=new srting("apple");
+console.log(name);
+
+
+
+string templeting
+enclose within its support multiline breaks
+that writes in ``
+
+string interpolation
+is used to print any string templating in side of $(expration)
+$() is used in ES6.0(means ecma script)
+
+var str1="apple";
+var str2=`orange $(str1)`;
+console.log(str2);
+
+
+string functions 
+
+var str="Appole";
+console.log(str);    (res u=is new variable)
+upper case = var res=str.toUpperCase   console.log(res)
