@@ -656,3 +656,110 @@ string functions
 var str="Appole";
 console.log(str);    (res u=is new variable)
 upper case = var res=str.toUpperCase   console.log(res)
+
+
+
+
+array and array functions
+
+array is uset to stor multipul data in a single element of variable there we use array
+
+array
+var emp=['apple','pineapple'];
+
+array fumction
+var emp=['apple','pineapple'];
+//var result=emp.forEach(callback function)
+emp.forEach(display)
+function display(item)
+{
+    console.log(item);
+}
+console.log(emp);
+
+
+concate
+
+var emp1=['apple','pineapple'];
+var emp2=['banana','orange'];
+var result=emp1.concate(emp2);
+console.log(result)
+
+
+indexof
+var emp1=['apple','pineapple'];
+var result=emp1.indexof('pineapple',1);
+console.log(result);
+if (result==1)
+{
+    console.log('available')
+}
+else
+{
+    console.log('not available')
+}
+
+
+push
+
+var emp1=['apple','pineapple'];
+var result=emp1.push('orange');
+console.log(result);
+console.log(emp1);
+
+
+pop
+
+var emp1=['apple','pineapple'];
+var result=emp1.pop();
+console.log(result);
+console.log(emp1);
+
+
+reverce
+
+var emp1=['apple','pineapple'];
+var result=emp1.reverce();
+console.log(result);
+
+
+filter
+
+var emp1=[12,45,78,2,14,45,18,85,63];
+//emp1.filter(callback);
+emp1.filter(chk)
+function chk(item)
+{
+    if(item>=18)
+    {
+        console.log(item)
+    }
+}
+
+
+
+sprade oprater
+it can marge multipul array
+denoted by ...
+
+var emp1=['apple','guawa'];
+var emp2=['banana','orange'];
+var emp3=['dates','pineapple'];
+var result=[...emp1,...emp2,...emp3];
+console.log(result)
+
+
+
+rest oprater
+denoted by ...
+always use as functions in arguments
+
+function nm(...args)
+{
+    console.log(args);
+}
+nm('apple',10);
+
+
+
+javascript error
