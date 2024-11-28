@@ -763,3 +763,204 @@ nm('apple',10);
 
 
 javascript error
+
+
+
+
+
+App making 
+
+evel function for +-*/
+
+
+
+JS ajax
+asincrones javascript and xml
+used to load data on server without page referesh or load 
+
+asyncrones : used to load data defoult asyncrones
+xml : etencible mark up language   it can dynamic load server
+
+always work on server
+
+this is load method
+
+go to jquery.com
+go to download 
+open Download the uncompressed
+copy the linnk
+https://code.jquery.com/jquery-3.7.1.js
+
+ajax method
+
+
+you can find many methods from different websites
+
+
+
+
+React JS
+
+libraeis of js
+a produuct of facebook
+used to make a web or web site
+make dynamik app add remove update edit using api
+life cycle of react
+    a = initialization
+    b = mounting
+    c = updating 
+    d = unmount
+
+features
+    components
+    components are reusables
+    fast data load on web broweser
+    <resct.strict> method to follow strict rules on web broweser
+    jsx(javascript xml) to access html eliments in react js
+    fragments to access multipiule html eliments
+    every tags are paired
+    packge and libraeis
+    seo frendly web site
+    large community
+
+
+npx =node pakege exucitable
+
+install react js
+    1 = download node js and install check node js node -v
+    note - node js module is used to install a react js app\
+    react js module install = npm install bootstarap
+    2 = creat app
+    npx creat-react-app appname
+    npm creat-react-app appname
+    entee name in small latter
+    3 = cd appname
+    4 = npm start
+
+
+install react with vite
+
+    1 = install node js
+    2 = npm create vite@latest
+    3 = write app name
+    vite packge is used to create many framework
+    4 = select react
+    select using arrow key
+    5 = select javascript
+    6 = cd app name
+    7 = install npm install
+    8 = npm run dev
+
+to chech react version use npm view react version
+
+
+file save as jsx in vita app and file svae as js/jsx in npm
+
+npm install animate.css --save
+
+
+components of React
+frugments is access multipul html data
+note : default components is always save with index.js, index.jsx, main.jsx
+and user define componet are always save with a capital latter ex-App.jsx
+
+    small peace of file that is save with .js and .jsx that is components
+    reusable
+    use to reuse one componet data to another components
+    stored data in objects {}
+    access html data using jsx/js
+    components access multipul data in jsx formet using  react frugments
+
+
+types of components 
+    twe type of components
+    a) function components
+        function app()
+        {
+            return{
+                <h1>apple</h1>frugments
+            }
+        }
+    b) class components
+        class app extend components{
+            render()
+            {
+                return{
+                    <h1>apple</h1>frugments
+                }
+            }
+        }
+
+
+function base components
+
+html
+div id=demo
+script type=module src main.jsx
+
+
+defult.jsx
+import employee from './employee'
+
+<employee />
+
+
+user define
+function employee()
+(
+    return(
+        <React.frgmant>
+        <div>
+        <>
+        <h1>ggg</h1>
+        </>
+        </div>
+        </React.frgment>
+    )
+)
+export defult employee
+
+
+
+
+class based components
+
+html
+div id=demo
+script type=module src main.jsx
+
+
+defult.jsx
+import employee from './employee'
+
+<employee />
+
+
+user define
+imopper react, {componet} from 'react'
+class employee extands component
+(
+    return(
+        <React.frgmant>
+        <div>
+        <>
+        <h1>ggg</h1>
+        </>
+        </div>
+        </React.frgment>
+    )
+)
+export defult employee
+
+
+
+what is jsx
+    javascript xml
+    javascript xml stands for javascript extencibal markup language
+    jsx used to load html dynamic contain in react
+
+
+what is frugments
+    javascript xml
+    javascript xml stands for javascript extencibal markup language
+    jsx used to load html dynamic contain in react
