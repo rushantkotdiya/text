@@ -961,6 +961,65 @@ what is jsx
 
 
 what is frugments
-    javascript xml
-    javascript xml stands for javascript extencibal markup language
-    jsx used to load html dynamic contain in react
+    frugments is used to access multipul html eliments in react js  
+    assigne inside of react js
+
+
+
+component reuseble function
+index
+usual things
+
+defoult
+usual things
+import last data
+<data />
+
+
+user define
+create function
+create other function
+make one more function
+
+return
+<>
+<app/>
+</>
+export last 
+
+
+
+events use in react
+
+
+
+extansen es6
+wrute rfc 
+modele 5
+
+react styling
+
+
+type of styling
+
+
+inline stylesheet
+internel stylesheet
+external stylesheet
+
+inline stylesheet for css
+<div style={{color:"blue",backgroundcolor:"grey"}}></div>
+
+
+internel stylesheet for css
+write internel stylesheet on index.html
+
+
+external stylesheet
+call stylesheet in main.jsx import 'style.css';
+for image import const book="image path"; in udf and use {book}
+import book from 'image path';
+
+
+sass
+
