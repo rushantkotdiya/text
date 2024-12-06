@@ -1023,3 +1023,60 @@ import book from 'image path';
 
 sass
 
+npm i sass for install sass
+
+make a component
+
+make a file style.scss
+
+$text-success:green;
+$text-denger:red;
+$bg-denger:red;
+$max-width:100%;
+.app{
+    width:$max-width;
+}
+
+import sass file in main.jsx 
+import './assets/css
+
+
+
+bootstrap in react
+
+npm install react-bootstrap bootstarap bootstarap-icons 
+
+import 'bootstarap/dist/css/bootstrap.min.css';
+import 'bootstarap/dist/css/bootstrap.min.js';
+import 'bootstarap-icon/font/bootstarap-icons.css';
+
+make a component
+import { container} from 'react-bootstarap';
+
+icons 
+import container
+<h1>notifications <span classname="bi bi-bell"></span></h1>
+
+
+import {container,Row} from react bootstarap
+import {Nav, Navbar, NevbarBrand}
+import {card, cardheader, cardbody, container, row}
+import {container}
+
+
+portfolio app
+
+npm install animate.css react-bootstarap bootstarap bootstarap-icons
+
+main.jsx 
+import 'bootstrap/dist/css/bootstarap.min.css';
+bootstarap/dist/js/bootstarap.min.js
+bootstarap-icons/font/bootstarap-icons.css
+
+photopea
+
+header
+import container row 
+
+Navbar
+container
