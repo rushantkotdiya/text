@@ -1080,3 +1080,68 @@ import container row
 
 Navbar
 container
+
+
+html to jsx for convert code from html to jsx
+
+mdb = material design bootstrape
+bootstrap is freamwork of website decining
+
+mdb in reactjs
+press get started 
+go mdb setup
+install = npm i mdb-react-ui-kit
+for fortawesome
+npm i @fortawesome/fontawesome-free
+
+import this in main.jsx
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
+
+
+tailwind
+pre processor of css
+framework of css
+
+installtion of tailwind
+go to tailwindcss.com
+
+docs
+vite
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+go to tailwind.config.js
+pest this on content
+content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+
+go to index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+mui.com
+docs
+
+
+installtion
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/material @mui/styled-engine-sc styled-components
+npm install @fontsource/roboto
+npm install @mui/icons-material
+
+
+import 
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
+
+go to useg ijn webdite
