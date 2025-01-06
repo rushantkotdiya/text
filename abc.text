@@ -1144,4 +1144,62 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
 
-go to useg ijn webdite
+go to useg ijn  webdite
+
+
+npm install react-router-dom
+import browserRouter as router, routs, route from react-router-dom
+
+<router>
+<routes>
+<route path='/' element={<layout />} />
+<route path='/About' element={<about />} />
+</routes>
+</router>
+
+
+browser router = this is use to route a page in browser and work as perent of react router
+router = this is a alias of browserRouter 
+routes = is a child of router it is uset to route multipel pages via route
+route = is a child of routes route is multipul it is used to lode pages
+path =  path is an atributr of route and it is locate you on page or it is redirect on a page via routing name
+element = attribute of route and it is locate you on react component
+* = is module of react router dom and it is used to search all pages or routing if page not found it generate 404 error
+link = is just like use of <a href> or <Link to=''> </Link>
+usenavigate = is redirect one to another 
+
+
+
+conditions
+
+
+
+map for employee data
+{data && data.map((item)=>{return(
+    <>
+    <tr>
+    <td>{item.id}</td>
+    <td><img src={item.photo} /></td> 
+    </tr>
+    </>
+)})}
+
+
+filter
+{data.filter((key,item)=>key.age>=35).map((item)=>{
+    return(
+    <> 
+    <tr>
+    <td>{item.id}</td>
+    <td>{item.age}</td>
+    <td><img src={item.photo} /></td>
+    </tr>
+    </>
+)})}
+
+
+json file makingsave with .json
+{
+    'product':
+    peast your array
+}
