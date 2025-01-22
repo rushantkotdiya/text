@@ -1203,3 +1203,264 @@ json file makingsave with .json
     'product':
     peast your array
 }
+
+
+
+import react from react 
+const age=16;
+function check(){
+    if(age>=18)
+    {
+        
+    }
+}
+
+
+
+
+
+reusable function component
+
+function Pet(){
+    return(
+        <>apple</>
+    )
+}
+
+function Pethoouse(){
+    <Pet />
+    return(
+        <>orange</>
+    )
+}
+
+export default Pethouse
+
+
+
+reusable class
+
+import React, {Component} from 'react'
+
+class Pet extand Component
+{
+    render()
+    {
+        return(
+            <>apple</>
+        )
+    }
+}
+
+class Pethouse extand Pet
+{
+    render()
+    {
+        return(
+            <><Pet /> orange</>
+        )
+    }
+}
+
+export default Pethouse
+
+
+constroctor base class multipul value
+
+class Pet extand Component
+{
+    constroctor(props)
+    {
+        super(props);
+        this.state={
+            id:101,
+            name:'apple'
+        }
+    }
+    render()
+    {
+        return(
+            <>{this.state.id}</>
+        )
+    }
+}
+
+export defoult Pet
+
+
+update class
+
+class Pet extand Component
+{
+    constroctor(props)
+    {
+        super(props);
+        this.state={
+            id:101,
+            name:'apple'
+        }
+    }
+
+    Get=()=>{
+        this.setstate=({
+            name:'banana'
+        })
+    }
+
+    render()
+    {
+        return(
+            <>{this.state.id}</>
+        )
+    }
+}
+
+export defoult Pet
+
+
+
+update value in function based component
+
+import React,{useState} from'React'
+
+function Pethoouse(){
+    const[name,setName]=useState("apple")
+    return(
+        <>
+        <div Classname='app'>
+        <h1>apple{name}</h1>
+        
+        </div>
+        </>
+    )
+}
+
+export default Pethouse
+
+
+
+
+
+api
+
+api stands for application programing interface
+api is used to get data in json format
+api is calld via http request to its server
+
+json
+
+json=javascript object notation
+jspn used to call api data
+creat its own server
+json save with .json
+
+
+how to creat a json server in react
+
+install json-server dependency = npm install json-server
+make a file db.json
+configer json from packge.json
+    go to script = "json-server":"json-server --watch db.json --port 9000"
+
+how to run json server
+    npm run json-server
+
+
+fake api 
+
+
+lazy loading
+
+
+
+hooks in react
+
+hook is a simple function and defoult module of react js 
+called while adding some feature, use effects, fatch data, call api, stored memory, destructure of data
+use to take data from users by useref 
+note=hook is added a new feature that can be only support in function components
+hook is not supported class component
+
+types of hooks
+    use state()
+    use effects()
+    use ref()
+    use memo()
+    use fetch()
+    fetch()
+    use reducer()
+    custom hook
+
+
+
+hooks 
+
+useState in class that not suportable
+
+const[data,setdata]=useState({
+    id=1,
+})
+
+
+useState in function based component
+
+use starte provides immutable data stored data in object
+const[data,setdata]=useState(0);
+return(
+    <>
+    <h1> {data}</h1>
+    </>
+)
+
+
+
+use effects
+
+use effects is a type of hooks this is used to add some effects
+add to fatch data timers effects etc
+dependency is pass in use effects for 
+    no dependency = render data again and again
+    pass dependency = [] blank array render a data one time
+    props state dependency = [props, state] render data one time and we can update data also
+
+import React, {useState,useEffect} from react
+
+const [loader,setloader]=usestate(true);
+useEffect(()=>{
+    settimeout(()=>{
+        setloader(false);
+    },2500)
+})
+
+return(
+    loader ?
+    <>
+    <h1>import loader</h1>
+    </>
+
+    <>
+    <h1>hello</h1>
+    </>
+)
+
+
+fatch data
+
+install json server and run
+axios for get api data
+
+useEffect(()=>{
+    axios.get(`pest api url here`).then((responce)=>{
+        setdata(responce.data);
+    })
+})
+
+{name && name.map((item)=>{
+    return(
+        <>
+        <tr>
+        <td>{item.id}</td>
+        </tr>
+        </>
+    )
+})}.
