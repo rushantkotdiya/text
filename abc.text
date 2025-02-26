@@ -1463,4 +1463,194 @@ useEffect(()=>{
         </tr>
         </>
     )
-})}.
+})}
+
+
+
+
+add data in api
+
+destructure in function
+    add name in html in return 
+store eact item in variable in function
+create event handler in function and make arrow function
+call api using axios in function
+store navigate in a variable in function
+    call function in return
+
+
+now display api data
+
+destructure data in function
+count the data in function
+display data via use effect in function and call the api
+use loop in return to show data and put use effect variable
+
+
+
+
+
+
+add and fatch data  crud app api
+install sweetalert2 from github.io 
+
+install bootstrap axios json-server react-router-dom sweetalert2
+
+in script and make a file db.json
+'json-server':"json-server..."
+
+make a layout function 
+make a containt function
+
+main.jsx
+import { browserRouter as router, routes, route} from "react-router-dom"
+<router>
+    <routes>
+        <route path="/"> element
+
+
+make a add tast page and make a form to add task
+make a manage task function
+
+
+for add data in api
+
+import useRef
+
+put ref={taskname} in input
+
+const taskname=useRef("");
+
+
+google chart for react js
+
+
+
+how to send email using react js
+
+  
+photo mathi lakhvanu
+
+
+
+apps that can we have to make
+
+weather app
+dixnory app
+
+
+
+data fatch from api
+
+make a componant 
+destructure the data in function 
+and make a variable
+use effect and arrow function in function
+run a loop in return
+
+
+
+redux
+
+installtion of redux
+- make a react app
+- install npm install redux react-redux
+
+
+we use provider to use all the things and you have to make a store as well
+make a store file in src
+
+main.jsx
+<provider store={store}>
+
+</provider>
+
+
+
+react project live 
+
+build creating
+
+make a react app
+make a new repositry in git
+google search = live hosting using vite app on github pages and open github link
+https://github.com/ErickKS/vite-deploy
+vite configgo plugnins and paste github repositry name
+go to action in github 
+open setup workflow
+make deploy.yml
+copy yml file from github google search
+paste this in yml file
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+
+      - name: Install dependencies
+        uses: bahmutov/npm-install@v1
+
+      - name: Build project
+        run: npm run build
+
+      - name: Upload production-ready build files
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-files
+          path: ./dist
+
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: production-files
+          path: ./dist
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+
+go to action setting/action/general/workflow pernmition
+and give read and write pernmition
+go to action and view 
+go to setting
+gp to pages 
+go to gh pages root and save
+
+
+firebase login and 
+
+npm install firebase
+web-vitals
+react-google-button
+
+open firebase in browser
+amd search firebase console
+
+login and go to console
+create a project/app in firebase
+enable firebase authantication
+
+
+
